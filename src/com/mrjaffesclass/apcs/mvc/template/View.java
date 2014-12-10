@@ -21,7 +21,7 @@ import javax.swing.JSeparator;
 
 /**
  *
- * @author barry
+ * @author
  */
 public class View extends JFrame implements MessageHandler {
 
@@ -41,7 +41,7 @@ public class View extends JFrame implements MessageHandler {
     GridLayout layout2 = new GridLayout(numOfButtons, numOfButtons);
 
     public View(Messenger messenger) {
-        super("MineSweeper");
+        super("Landmine");
         this.messenger = messenger;
         this.setResizable(false);
         this.setLocationRelativeTo(null);
